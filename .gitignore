@@ -1,0 +1,58 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+*.env
+*.venv
+
+# Arquivos de configuração local
+*.local
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Banco de dados SQLite
+db.sqlite3
+
+# Diretórios de migrações (exceto arquivos de migração reais)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do sistema operacional
+ehthumbs.db
+desktop.ini
+
+# Node.js (caso use npm para frontend)
+node_modules/
+package-lock.json
+
+# Coverage e testes
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Arquivos do Django que você talvez use
+staticfiles/
+media/
